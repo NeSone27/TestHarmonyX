@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "27731c5f-0079-42c2-94d5-5294f8a3638a",
+		"name": "HarmonyXTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14879062"
+	},
+	"item": [
+		{
+			"name": "coding example 1 : volwels",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"input\": \"beautiful\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/volwels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"volwels"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "coding example 2 : abc permute",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"input\":\"ABC\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/abc-permute",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"abc-permute"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
